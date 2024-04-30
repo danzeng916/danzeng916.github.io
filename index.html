@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
           integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <!-- Header Area -->
@@ -27,7 +30,7 @@
 <script src="https://kit.fontawesome.com/7d22a40f76.js" crossorigin="anonymous"></script>
 
 
-<div id="nav" class="nav nav-bar">
+<div id="nav" class="nav nav-bar body-font">
     <nav class="navbar navbar-expand-lg " style="height: 45px;  text-transform: uppercase;">
         <!-- Container wrapper -->
         <div class="container">
@@ -36,11 +39,11 @@
                                                   src="./assert/022-unicorn.png"
                                                   draggable="false" height="30"/>
             </a>
-            <span class="navbar-brand nav-text" style="font-size: 25px; margin-left: -5px">DAN ZENG</span>
+            <span class="navbar-brand nav-title" style="font-size: 25px; margin-left: -5px">DAN ZENG</span>
             <!--        <a href="#" class="navbar-brand" style="font-size: 20px; margin-top:0px">DAN ZENG</a>-->
 
             <div class="collapse navbar-collapse nav-text">
-                <ul class="nav" style="font-size: 12px">
+                <ul class="nav" style="font-size: 13px">
                     <li class="nav-item"><a class="nav-link" style="color:black" href="#top">HOME</a></li>
                     <li class="nav-item"><a class="nav-link" style="color:black"
                                             href="./publication.html">PUBLICATION</a>
@@ -65,16 +68,16 @@
                      class="border border-white p1 circle border-5
                             square-100 lazyloaded" style="border: white">
             </div>
-            <div class="px2">
+            <div class="px2 head-font">
                 <div class="clearfix">
-                    <h2 class="page-title mt0 mb1" style="font-size: 32px">Dan Zeng</h2>
+                    <h2 class="head-title" style="font-size: 32px">Dan Zeng</h2>
                 </div>
-                <h4 class="page-description gray mt0 h4 " style="font-size: 20px">
+                <div class="gray head-context">
                     Data Visualization<br>
                     System Observerbility <br>
                     Human-Machine Collaboration <br>
                     Spatial-Temporal Data Analysis
-                </h4>
+                </div>
                 <div class="page-description findme">
                     Find me:
                     <a href="github url" target="_blank" class="dark-gray hint--top" data-hint="Github">
@@ -108,11 +111,11 @@
 
 <div id="about" class="main_context selected_publications">
     <div class="container">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center body-font">
             <div class="col-md-6">
                 <div class="row justify-content-left">
                     <div style="margin-top: 5px;">
-                        <span class="fs-4">About me</span>
+                        <span class="section-title">About me</span>
                     </div>
                 </div>
                 <p class="text-justify" style="text-align: justify;">
@@ -145,7 +148,7 @@
             <div class="col-md-3">
                 <div class="row justify-content-left">
                     <div>
-                        <span class="fs-4">News</span>
+                        <span class="section-title">News</span>
                     </div>
                 </div>
                 <div class="row justify-content-left news">
@@ -163,12 +166,12 @@
     </div>
 </div>
 
-<div class="header">
+<div class="header main_context">
     <div class="container">
         <div class="row justify-content-center ">
             <div class="col-md-9">
                 <div class="row  justify-content-center ">
-                    <span class="fs-4">Directions</span>
+                    <span class="section-title">Directions</span>
                 </div>
                 <div class="row justify-content-center" style="text-align: center">
                     <div class="col-md-4">
@@ -205,151 +208,123 @@
     </div>
 </div>
 
-<!-- Portfolio -->
-<div id="publication" class="portfolio selected_publications" style="display: none">
-    <div class="container ">
+<div class="about publications main_context">
+    <div class="container">
         <div class="row justify-content-center ">
-            <div class="col-md-9">
-                <span class=" fs-4">Selected Publications </span>
-                <hr>
-                <div class="row justify-content-center" style="padding-top: 10px">
+            <div class="col-md-9 ">
+                <div class="row justify-content-center">
                     <div>
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>CheetahTraj: Efficient Visualization for Large Trajectory Dataset with Quality
-                                    Guarantee</h6>
-                                <div class="mb-1 text-muted authors"><Strong>Qiaomu Shen</Strong>, Chaozu Zhang, Xiao
-                                    Yan, Chuan Yang, Dan Zeng, Wei Zeng, Bo Tang
-                                </div>
-                                <div>
-                                    <em class="venue">IEEE Transactions on Knowledge and Data Engineering (TKDE)</em>,
-                                    2024. Accepted.
-                                </div>
-                            </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/cheetahTraj.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
+                        <div>
+                            <span class="section-title">Selected Publications</span>
                         </div>
-
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>MetroBUX: A Topology-based Visual Analytics for Bus Operational Uncertainty
-                                    EXploration</h6>
-                                <div class="mb-1 text-muted authors">Shishi Xiao, Qing Shi, Lingdan Shao, Bo Du, Yang
-                                    Wang, <strong>Qiaomu Shen</strong>, Wei Zeng,
-                                </div>
-                                <div>
-                                    <em class="venue">IEEE Transactions on Intelligent Transportation Systems
-                                        (TITS)</em>, 2024. Accepted.
-                                </div>
-                            </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/2024_MetroBUX.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
+                        <div class="row g-0 pubYearContainer">
+                            <div class="text-left" style="margin-top: 5px"><span>2024</span></div>
                         </div>
-
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>QEVIS: Multi-grained Visualization of Distributed Query Execution.</h6>
-                                <div class="mb-1 text-muted authors"><strong>Qiaomu Shen</strong>, Zhengxin You, Xiao
-                                    Yan, Chaozu Zhang, Ke Xu, Dan Zeng, Jianbin Qin, Bo Tang
+                        <div class="publication-container">
+                            <div class="row g-0 rounded overflow-hidden flex-md-row  h-md-150 position-relative">
+                                <div class="col">
+                                    <h6>CheetahTraj: Efficient Visualization for Large Trajectory Dataset with Quality
+                                        Guarantee</h6>
+                                    <div class="mb-1 text-muted authors"><Strong>Qiaomu Shen</Strong>, Chaozu Zhang,
+                                        Xiao
+                                        Yan, Chuan Yang, Dan Zeng, Wei Zeng, Bo Tang
+                                    </div>
+                                    <div>
+                                        <em class="venue">IEEE Transactions on Knowledge and Data Engineering
+                                            (TKDE)</em>,
+                                        2024. Accepted.
+                                    </div>
+                                    <div class="resource_container">
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="PDF">
+                                            <i class="fa-solid fa-file"></i> <span>PDF</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Poster">
+                                            <i class="fa-solid fa-panorama"></i> <span>Poster</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Slides">
+                                            <i class="fa-solid fa-file-powerpoint"></i> <span>Slides</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Video">
+                                            <i class="fa-brands fa-youtube"></i> <span>Video</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Code">
+                                            <i class="fa-brands fa-github"></i> <span>Code</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div>
-                                    <em class="venue">IEEE Transactions on Visualization and Computer Graphics
-                                        (TVCG)</em>, 2023. Accepted.
+                                <div class="col-auto d-none d-lg-block">
+                                    <img src="./pubImg/cheetahTraj.png" class="rounded float-start paper_image_size"
+                                         alt="notfound">
                                 </div>
+                                <hr class="hr-gradient">
                             </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/2023_qevis.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
-                        </div>
-
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>Data-Scarce Animal Face Alignment via Bi-Directional Cross-Species Knowledge
-                                    Transfer.</h6>
-                                <div class="mb-1 text-muted authors">Dan Zeng, Shanchuan Hong, Shuiwang Li, <strong>Qiaomu
-                                    Shen#</strong>, Bo Tang.
+                            <div class="row g-0 rounded overflow-hidden flex-md-row  h-md-150 position-relative">
+                                <div class="col">
+                                    <h6>MetroBUX: A Topology-based Visual Analytics for Bus Operational Uncertainty
+                                        EXploration</h6>
+                                    <div class="mb-1 text-muted authors">Shishi Xiao, Qing Shi, Lingdan Shao, Bo Du,
+                                        Yang
+                                        Wang, <strong>Qiaomu Shen</strong>, Wei Zeng,
+                                    </div>
+                                    <div>
+                                        <em class="venue">IEEE Transactions on Intelligent Transportation Systems
+                                            (TITS)</em>, 2024. Accepted.
+                                    </div>
+                                    <div class="resource_container">
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="PDF">
+                                            <i class="fa-solid fa-file"></i> <span>PDF</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Poster">
+                                            <i class="fa-solid fa-panorama"></i> <span>Poster</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Slides">
+                                            <i class="fa-solid fa-file-powerpoint"></i> <span>Slides</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Video">
+                                            <i class="fa-brands fa-youtube"></i> <span>Video</span>
+                                        </a>
+                                        <a href="./files/Qiaomu_Shen_CV_EN.pdf" target="_blank"
+                                           class="publication-resource dark-gray hint--top" data-hint="Code">
+                                            <i class="fa-brands fa-github"></i> <span>Code</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div>
-                                    <em class="venue">Proceedings of the 31th ACM international conference on multimedia
-                                        (MM)</em>, 2023, Accepted.
+                                <div class="col-auto d-none d-lg-block">
+                                    <img src="./pubImg/2024_MetroBUX.png" class="rounded float-start paper_image_size"
+                                         alt="notfound">
                                 </div>
+                                <hr class="hr-gradient">
                             </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/2023_data_scarce.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
-                        </div>
-
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>Route-aware edge bundling for visualizing origin-destination trails in urban
-                                    traffic.</h6>
-                                <div class="mb-1 text-muted authors">Wei Zeng, <strong>Qiaomu Shen#</strong>, Yuzhe
-                                    Jiang, Alexandru Telea.
-                                </div>
-                                <div>
-                                    <em class="venue">Computer Graphics Forum (Proc. EuroVis 2019)</em>, 2019, Accepted.
-                                </div>
-                            </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/2019_route_aware.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
-                        </div>
-
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>StreetVizor: Visual exploration of human-scale urban forms based on street
-                                    views.</h6>
-                                <div class="mb-1 text-muted authors"><strong>Qiaomu Shen</strong>, Wei Zeng, Yu Ye,
-                                    Stefan Müller Arisona, Simon Schubiger, Remo Burkhard, Huamin Qu.
-                                </div>
-                                <div>
-                                    <em class="venue"> IEEE Transactions on Visualization and Computer Graphics
-                                        (TVCG)</em>, 2017, Accepted.
-                                </div>
-                            </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/2017_streetvizor.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
-                        </div>
-
-                        <div class="row g-0  rounded overflow-hidden flex-md-row  h-md-150 position-relative">
-                            <div class="col" style="padding-left: 5px">
-                                <h6>Nameclarifier: A visual analytics system for author name disambiguation.</h6>
-                                <div class="mb-1 text-muted authors"><strong>Qiaomu Shen</strong>, Tongshuang Wu, Haiyan
-                                    Yang, Yanhong Wu, Huamin Qu, Weiwei Cui.
-                                </div>
-                                <div>
-                                    <em class="venue"> IEEE Transactions on Visualization and Computer Graphics
-                                        (TVCG)</em>, 2016, Accepted.
-                                </div>
-                            </div>
-                            <div class="col-auto d-none d-lg-block">
-                                <img src="./pubImg/2016_name_clarifier.png" class="rounded float-start paper_image_size"
-                                     alt="notfound">
-                            </div>
-                            <hr class="hr-gradient">
                         </div>
                     </div>
-                    <!--            <div class="col-md-2">News</div>-->
+
+                    <!--2022--------------------------------------------------------------------------------------------->
+
+                    <!--2020--------------------------------------------------------------------------------------------->
+
+                    <!--2019--------------------------------------------------------------------------------------------->
+
+                    <!--2017--------------------------------------------------------------------------------------------->
+
+                    <!--2015--------------------------------------------------------------------------------------------->
+
                 </div>
             </div>
+
         </div>
     </div>
 </div>
+
+
 <footer>
     <div class="container">
         <div class="row flex-justify-center">

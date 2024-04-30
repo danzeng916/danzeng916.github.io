@@ -6,17 +6,17 @@
     margin-top: 1px
 }
 
-.page-title {
-    font-size: 2rem;
-    font-family: "Merriweather", serif;
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
-    font-weight: bold;
-    line-height: 1.25;
-}
+/*.page-title {*/
+/*    font-size: 2rem;*/
+/*    font-family: "Merriweather", serif;*/
+/*    -webkit-font-feature-settings: 'kern' 1;*/
+/*    -moz-font-feature-settings: 'kern' 1;*/
+/*    -o-font-feature-settings: 'kern' 1;*/
+/*    font-weight: bold;*/
+/*    line-height: 1.25;*/
+/*}*/
 
-h4,.h4 {
+h4, .h4 {
     font-size: 1.25rem
 }
 
@@ -31,7 +31,8 @@ h4,.h4 {
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1
 }
-.gray,.mid-gray {
+
+.gray, .mid-gray {
     color: #aaa
 }
 
@@ -44,25 +45,13 @@ h4,.h4 {
 }
 
 
-.paper_image_size{
+.paper_image_size {
     width: 210px;
 }
 
 
-.nav-text {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 600
-}
-
-.nav-bar{
+.nav-bar {
     background-color: white;
-}
-.page-title {
-    font-size: 2rem;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1
 }
 
 /*body {*/
@@ -75,40 +64,89 @@ h4,.h4 {
 /*    line-height: 1.75rem*/
 /*}*/
 
-.findme i{
+.findme i {
     color: #1e1e1e
 }
 
 
-.pubYearContainer{
+.pubYearContainer {
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600
 }
 
-.publications a{
+.publications a {
     color: #5b5b5b;
 }
-.publications .publication-resource{
+
+.publications .publication-resource {
     padding-right: 8px;
 }
 
-.publications .resource_container{
+.publications .resource_container {
     margin-top: 5px;
 }
 
-.publications h6{
+.publications h6 {
     color: #4682b4;
 }
 
-.publication-container{
+.publication-container {
     margin-left: 45px;
 }
 
-.direction-title{
+.direction-title {
     background-color: #797979;
     height: 30px;
 }
-.direction-title{
+
+.direction-title {
     font-size: 20px
+}
+
+
+.nav-title {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 25px;
+}
+
+.nav-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 14px;
+}
+
+.head-font {
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+}
+
+.head-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.head-context {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-title {
+    font-family: "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.news {
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+}
+
+.grey-background {
+    background: none repeat scroll 0 0 #F1F1F1;
 }

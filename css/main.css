@@ -4353,13 +4353,13 @@ h6,.h6 {
     color: #2E2E2E
 }
 
-.page-title {
-    font-size: 2rem;
-    font-family: "Merriweather", serif;
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1
-}
+/*.page-title {*/
+/*    font-size: 2rem;*/
+/*    font-family: "Merriweather", serif;*/
+/*    -webkit-font-feature-settings: 'kern' 1;*/
+/*    -moz-font-feature-settings: 'kern' 1;*/
+/*    -o-font-feature-settings: 'kern' 1*/
+/*}*/
 
 .container {
     max-width: 65em
