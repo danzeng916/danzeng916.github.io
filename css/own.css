@@ -140,6 +140,7 @@ h4, .h4 {
     font-family: "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 23px;
     font-weight: 700;
+    padding-bottom: 5px;
 }
 
 .news {
