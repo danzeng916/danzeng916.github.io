@@ -6,16 +6,6 @@
     margin-top: 1px
 }
 
-/*.page-title {*/
-/*    font-size: 2rem;*/
-/*    font-family: "Merriweather", serif;*/
-/*    -webkit-font-feature-settings: 'kern' 1;*/
-/*    -moz-font-feature-settings: 'kern' 1;*/
-/*    -o-font-feature-settings: 'kern' 1;*/
-/*    font-weight: bold;*/
-/*    line-height: 1.25;*/
-/*}*/
-
 h4, .h4 {
     font-size: 1.25rem
 }
@@ -49,26 +39,52 @@ h4, .h4 {
     width: 210px;
 }
 
-
+/*----------------------------Nav---------------------------*/
 .nav-bar {
     background-color: white;
 }
 
-/*body {*/
-/*    font-family: "Merriweather", serif;*/
-/*    -webkit-font-feature-settings: 'kern' 1;*/
-/*    -moz-font-feature-settings: 'kern' 1;*/
-/*    -o-font-feature-settings: 'kern' 1;*/
-/*    color: #2E2E2E;*/
-/*    letter-spacing: 0.01rem;*/
-/*    line-height: 1.75rem*/
-/*}*/
+.nav-title {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 25px;
+}
 
+.nav-text {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .2em;
+    font-size: 14px;
+}
+
+/*----------------------------Nav---------------------------end*/
+
+/*----------------------------Head---------------------------*/
+.head-font {
+    font-family: "Merriweather", serif;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+}
+
+.head-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.head-context {
+    font-size: 20px;
+    font-weight: 500;
+}
 .findme i {
     color: #1e1e1e
 }
 
+/*----------------------------Head---------------------------end*/
 
+
+/*----------------------------Publication---------------------------*/
 .pubYearContainer {
     margin-bottom: 10px;
     font-size: 18px;
@@ -94,7 +110,9 @@ h4, .h4 {
 .publication-container {
     margin-left: 45px;
 }
+/*----------------------------Publication---------------------------end*/
 
+/*----------------------------Direction---------------------------*/
 .direction-title {
     background-color: #797979;
     height: 30px;
@@ -104,37 +122,17 @@ h4, .h4 {
     font-size: 20px
 }
 
-
-.nav-title {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: .2em;
-    font-size: 25px;
-}
-
-.nav-text {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: .2em;
+/*----------------------------Direction---------------------------end*/
+/*----------------------------News---------------------------*/
+.news {
     font-size: 14px;
+    font-family: 'Courier New', monospace;
 }
+/*----------------------------News---------------------------end*/
 
-.head-font {
-    font-family: "Merriweather", serif;
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
-}
 
-.head-title {
-    font-size: 32px;
-    font-weight: 700;
-}
+/*----------------------------General--------------------------end*/
 
-.head-context {
-    font-size: 20px;
-    font-weight: 500;
-}
 
 .section-title {
     font-family: "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -143,10 +141,7 @@ h4, .h4 {
     padding-bottom: 5px;
 }
 
-.news {
-    font-size: 14px;
-    font-family: 'Courier New', monospace;
-}
+
 
 .grey-background {
     background: none repeat scroll 0 0 #F1F1F1;
