@@ -1,22 +1,57 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Font Awesome Example</title>
-    <!-- Add the Font Awesome Kit here (replace 'YOUR_KIT_CODE' with your actual Font Awesome kit code) -->
-    <script src="https://kit.fontawesome.com/7d22a40f76.js" crossorigin="anonymous"></script>
+    <title>基于标签的内容过滤</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .content-div {
+            display: none; /* 默认隐藏所有内容 */
+        }
+    </style>
 </head>
 <body>
-    <h1>Font Awesome Icons</h1>
-    <p>
-        <!-- Use a Font Awesome icon by adding an <i> tag with the appropriate class -->
-        <i class="fas fa-camera"></i> Camera Icon
-    </p>
-    <p>
-        <i class="fas fa-heart"></i> Heart Icon
-    </p>
-    <p>
-        <i class="fab fa-font-awesome-flag"></i> Font Awesome Flag Icon
-    </p>
+    <div class="container mt-5">
+        <div id="filter-buttons" class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-outline-primary" onclick="filterDivs('all')">全部</button>
+            <button type="button" class="btn btn-outline-secondary" onclick="filterDivs('tag1')">标签1</button>
+            <button type="button" class="btn btn-outline-success" onclick="filterDivs('tag2')">标签2</button>
+            <button type="button" class="btn btn-outline-info" onclick="filterDivs('tag3')">标签3</button>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-4 mb-4 content-div" data-tag="tag1">
+                <div class="p-3 border bg-light">内容1 (标签1)</div>
+            </div>
+            <div class="col-md-4 mb-4 content-div" data-tag="tag2">
+                <div class="p-3 border bg-light">内容2 (标签2)</div>
+            </div>
+            <div class="col-md-4 mb-4 content-div" data-tag="tag1">
+                <div class="p-3 border bg-light">内容3 (标签1)</div>
+            </div>
+            <div class="col-md-4 mb-4 content-div" data-tag="tag3">
+                <div class="p-3 border bg-light">内容4 (标签3)</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 初始化显示所有内容
+        window.onload = () => {
+            filterDivs('all');
+        };
+
+        function filterDivs(tag) {
+            const divs = document.querySelectorAll('.content-div');
+            divs.forEach(div => {
+                if (tag === 'all' || div.getAttribute('data-tag') === tag) {
+                    div.style.display = 'block';
+                } else {
+                    div.style.display = 'none';
+                }
+            });
+        }
+    </script>
 </body>
 </html>
