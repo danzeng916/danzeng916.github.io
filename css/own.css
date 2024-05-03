@@ -36,7 +36,7 @@ h4, .h4 {
 
 
 .paper_image_size {
-    width: 210px;
+    width: 200px;
 }
 
 /*----------------------------Nav---------------------------*/
@@ -47,7 +47,7 @@ h4, .h4 {
 .nav-title {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif, "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    letter-spacing: .2em;
+    /*letter-spacing: .1em;*/
     font-size: 25px;
 }
 
@@ -77,8 +77,19 @@ h4, .h4 {
     font-size: 20px;
     font-weight: 500;
 }
+
 .findme i {
     color: #1e1e1e
+}
+
+.textBio {
+    color: #d97d07;
+    font-weight: 550;
+}
+
+.textCV {
+    color: #00ad00;
+    font-weight: 550;
 }
 
 /*----------------------------Head---------------------------end*/
@@ -110,16 +121,35 @@ h4, .h4 {
 .publication-container {
     margin-left: 45px;
 }
+
 /*----------------------------Publication---------------------------end*/
 
 /*----------------------------Direction---------------------------*/
 .direction-title {
-    background-color: #797979;
+    background-color: #9d9d9d;
     height: 30px;
 }
 
 .direction-title {
     font-size: 20px
+}
+
+.direction-description {
+    height: calc(100% - 30px);
+    opacity: 0;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.direction-description:hover,
+.direction-description:focus {
+    background-color: #9d9d9d;
+    color: #ffffff;
+    opacity: 0.9
+}
+
+.advertise{
+    background-color: #f3d4b2
 }
 
 /*----------------------------Direction---------------------------end*/
@@ -128,6 +158,7 @@ h4, .h4 {
     font-size: 14px;
     font-family: 'Courier New', monospace;
 }
+
 /*----------------------------News---------------------------end*/
 
 
@@ -136,13 +167,14 @@ h4, .h4 {
 
 .section-title {
     font-family: "Merriweather", serif, Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 700;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
 }
-
 
 
 .grey-background {
     background: none repeat scroll 0 0 #F1F1F1;
 }
+
+/**/
